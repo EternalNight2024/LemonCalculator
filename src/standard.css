@@ -1,0 +1,87 @@
+body {
+  height: 100%;
+}
+
+#number {
+  position: absolute;
+  width: 100%;
+  height: 35%;
+  left: 0px;
+  right: 0px;
+  text-align: right;
+  display: flex;
+}
+
+#formula {
+  position: absolute;
+  border: none;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  height: 40%;
+  top: 30%;
+  bottom: 30%;
+  font-size: 250%;
+  text-align: right;
+  color: #000000;
+}
+
+#result {
+  position: absolute;
+  border: none;
+  width: 100%;
+  left: 0px;
+  right: 0px;
+  height: 16%;
+  bottom: 14%;
+  font-size: 150%;
+  text-align: right;
+  color: #9D9EA2;
+}
+
+#buttons {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  width: 100%;
+  height: 65%;
+  top: 35%;
+  background-color: #BDEEF3;
+}
+
+#keystrokes {
+  width: 100%;
+  height: 100%;
+  line-height: 20%;
+}
+
+.operator {
+  text-align: center;
+  width: 20%;
+  height: 20%;
+  font-size: 150%;
+  color: #00BBFF;
+}
+
+.function {
+  text-align: center;
+  width: 20%;
+  height: 20%;
+  font-size: 150%;
+  color: #FF8824;
+}
+
+.number {
+  text-align: center;
+  width: 20%;
+  height: 20%;
+  font-size: 150%;
+  color: #000000;
+}
+
+.circle {
+  position: absolute;
+  border-radius: 50%;
+  background-color: #BCDAF8;
+  transition: all 200ms;
+}
