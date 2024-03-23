@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh" href="/index.html">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>柠檬计算器</title>
+  <link rel="stylesheet" href="/src/index.css">
+</head>
+
+<body>
+  <div id="mode-list">
+    <h5 class="mode" onclick="change_mode(this)" id="standard-btn">标准</h5>
+    <h5 class="mode" onclick="change_mode(this)" id="convert-btn">换算</h5>
+    <h5 class="mode" onclick="change_mode(this)" id="history-btn">历史</h5>
+  </div>
+  <div id="topdiv" style="top:0%;position: absolute;"></div>
+  <iframe id="standard-ifm"/>
+  <iframe id="convert-ifm"/>
+  <iframe id="history-ifm"/>
+  <script src="/src/index.js"></script>
+</body>
+
+</html>
